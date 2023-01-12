@@ -1,14 +1,23 @@
 # money-track-back
--create virtual env
+(create virtual env)
+
 pip install virtualenv 
+
 virtualenv env
+
 source env/bin/activate
 
--install
+
+(install)
+
 pip install -r requirements.txt
 
--make migrations
+
+(make migrations)
+
 python manage.py makemigrations
 
--runserver
+
+(runserver)
+
 python manage.py runserver
